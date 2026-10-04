@@ -6,9 +6,6 @@ include vendor/samsung/j7velte/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/j7velte
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth
 
