@@ -19,8 +19,6 @@ DEVICE_PATH := device/samsung/j7velte
 # Device Overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
-# -----------------------------------------------------------
-# Audio - mixer paths specific to j7velte
-# -----------------------------------------------------------
+# Audio
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
+    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_0.xml
